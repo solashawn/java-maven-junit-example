@@ -13,7 +13,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  <archive>
+    <manifest>
+       <addClasspath>true</addClasspath>
+	 <mainClass>com.recursivechaos.App</mainClass>
+    </manifest>
+  </archive>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
